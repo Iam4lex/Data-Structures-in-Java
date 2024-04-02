@@ -32,7 +32,7 @@ public class StackDemo {
 		System.out.println(stack.pop()); // Returns Golf
 		
 		// Return the size of the stack
-		System.out.println(stack.size()); // Returns 4 because 1 element is deleted
+		System.out.println(stack.size()); // Returns 4 because Golf element is deleted
 		
 		// Check if the stack is empty
 		System.out.println(stack.isEmpty()); // Returns false

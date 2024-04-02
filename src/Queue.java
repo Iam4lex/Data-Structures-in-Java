@@ -1,4 +1,4 @@
-
+// ======== Queue Interface =========
 public interface Queue {
 	
 	public boolean isEmpty();

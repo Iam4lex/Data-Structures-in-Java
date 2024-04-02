@@ -22,8 +22,13 @@ public class QueueExample {
 		// Dequeue elements from the queue and print them
 		while(!queue.isEmpty()) {
 			int elements = queue.poll();
-			System.out.println("Elements of the queue " + elements);
+			System.out.println(elements);
+			System.out.println(queue.isEmpty()); // Prints true
+			System.out.println(queue.contains(90)); // Prints false
+			System.out.println(queue.poll()); //prints 80
 		}
+		
+		
 
 	}
 
