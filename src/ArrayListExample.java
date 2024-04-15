@@ -5,7 +5,7 @@ public class ArrayListExample
     public static void main(String[] args)   
     {  
         // Create an ArrayList to store integers  
-        ArrayList<Integer> numbers=new ArrayList<>(List.of(10,20,30,40,50));  
+        ArrayList<Integer> numbers=new ArrayList<>();  
   
         //Access and print elements from the ArrayList  
         System.out.println("Element at index 0:"+numbers.get(0));  
